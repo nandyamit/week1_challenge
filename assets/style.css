@@ -9,14 +9,19 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Font family applies to the compnay logo on the website. 
+Attributes added to keep the nav bar in the fixed position while scrolling.
+Attributes added to keep the nav bar in the fixed position while scrolling.
+Attributes added to keep the nav bar in the fixed position while scrolling.
+*/
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Font family applies to the compnay logo on the website */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     background-color: #2a607c;
     color: #ffffff;
-    position: -webkit-sticky; /* attributes added to keep the nav bar in the fixed position while scrolling*/
-    position: sticky; /* attributes added to keep the nav bar in the fixed position while scrolling*/
-    top: 0; /* attributes added to keep the nav bar in the fixed position while scrolling*/
+    position: -webkit-sticky;
+    position: sticky; 
+    top: 0;
 }
 
 .header h1 {
@@ -59,6 +64,7 @@ a {
     width: 100%;
     margin-bottom: 25px;
     background-size: cover;
+    background-image: url("https://static.bc-edx.com/coding/full-stack/01-HTML-Git-CSS/assets/digital-marketing-meeting.jpg");
     background-position: center;
 }
 
@@ -139,7 +145,7 @@ p {
     font-size: 36px;
 }
 
-/* Updated width to 26% to optimize space */
+/* Updated width to 26% to optimize space and updated background color to match other sections */
 .benefits {
     margin-right: 20px;
     padding: 20px;
